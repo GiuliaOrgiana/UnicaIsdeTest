@@ -36,7 +36,7 @@ def split_data(x, y, n_tr, n_ts=None):
     y_ts = y[idx_ts]
     return x_tr, y_tr, x_ts, y_ts
 
-def plot_ten_digit(x,y=None):
+def plot_ten_digits(x,y=None):
   plt.figure(figsize=(10, 5))
   for i in range(10):
     plt.subplot(2, 5, i+1)

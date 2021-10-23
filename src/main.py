@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from utils import load_mnist_data, split_data, plot_ten_digit, load_mnist_data_openml
+from utils import load_mnist_data, split_data, plot_ten_digits, load_mnist_data_openml
 from nmc import NMC
 
 from sklearn.neighbors import NearestCentroid
